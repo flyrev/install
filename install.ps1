@@ -16,6 +16,7 @@ choco install git
 choco install googlechrome
 choco install make
 choco install powertoys
+choco install steam
 choco install pdftk
 choco install 7zip.install
 cinst vscode
