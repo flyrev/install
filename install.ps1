@@ -5,6 +5,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 Set-ExecutionPolicy Bypass -Scope Process -Force
 
 choco feature enable -n allowGlobalConfirmation
+choco feature enable -n allowEmptyChecksums
 choco upgrade all
 choco install battle.net
 choco install cmake
