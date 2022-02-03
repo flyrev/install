@@ -23,6 +23,9 @@ cinst steam
 cinst vscode
 cinst 7zip.install
 
+cinst SetDefaultBrowser
+SetDefaultBrowser chrome
+
 cinst nvm
 refreshenv
 nvm install latest
