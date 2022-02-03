@@ -5,6 +5,8 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco feature enable -n allowGlobalConfirmation
 choco upgrade all
 choco install googlechrome
+choco install cmder
+choco install git
 choco install discord
 choco install 7zip.install
 choco install mingw
