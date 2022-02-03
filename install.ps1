@@ -7,21 +7,23 @@ Set-ExecutionPolicy Bypass -Scope Process -Force
 choco feature enable -n allowGlobalConfirmation
 choco feature enable -n allowEmptyChecksums
 choco upgrade all
-choco install battle.net
-choco install cmake
-choco install cmder
-choco install discord
-choco install epicgameslauncher
-choco install git
-choco install googlechrome
-choco install make
-choco install powertoys
-choco install steam
-choco install pdftk
-choco install 7zip.install
+cinst battle.net
+cinst cmake
+cinst cmder
+cinst discord
+cinst epicgameslauncher
+cinst git
+cinst googlechrome
+cinst make
+cinst maven
+cinst oraclejdk
+cinst pdftk
+cinst powertoys
+cinst steam
 cinst vscode
+cinst 7zip.install
 
-choco install nvm
+cinst nvm
 refreshenv
 nvm install latest
 npm install -g npm
