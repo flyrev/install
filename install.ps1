@@ -14,6 +14,7 @@ cinst discord
 cinst epicgameslauncher
 cinst git
 cinst googlechrome
+cinst gsudo
 cinst make
 cinst maven
 cinst oraclejdk
