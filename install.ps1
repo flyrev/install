@@ -13,3 +13,4 @@ choco install cmake
 choco install powertoys
 choco install pdftk
 choco install yarn
+choco install epicgameslauncher
