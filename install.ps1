@@ -6,18 +6,27 @@ Set-ExecutionPolicy Bypass -Scope Process -Force
 
 choco feature enable -n allowGlobalConfirmation
 choco upgrade all
-choco install googlechrome
-choco install cmder
-choco install git
-choco install discord
-choco install 7zip.install
-choco install mingw
-choco install make
+choco install battle.net
 choco install cmake
+choco install cmder
+choco install discord
+choco install epicgameslauncher
+choco install git
+choco install googlechrome
+choco install make
 choco install powertoys
 choco install pdftk
-choco install yarn
-choco install epicgameslauncher
+choco install 7zip.install
+cinst vscode
+
+choco install nvm
+refreshenv
+nvm install latest
+npm install -g npm
+npm install -g yarn
+
+Invoke-WebRequest 'https://get.pnpm.io/v6.16.js' -UseBasicParsing -o pnpm.js; node pnpm.js add --global pnpm; Remove-Item pnpm.js
+pnpm add -g pnpm
 
 Install-PackageProvider -Name NuGet -Force
 Install-Module PSWindowsUpdate -Force
