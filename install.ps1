@@ -7,6 +7,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force
 choco feature enable -n allowGlobalConfirmation
 choco feature enable -n allowEmptyChecksums
 choco upgrade all
+cinst adobereader
 cinst battle.net
 cinst cmake
 cinst cmder
@@ -22,6 +23,7 @@ cinst pdftk
 cinst powertoys
 cinst steam
 cinst vscode
+cinst zoom
 cinst 7zip.install
 
 cinst SetDefaultBrowser
