@@ -1,1 +1,2 @@
+lsb_release -a
 sudo apt install -y git curl build-essential
